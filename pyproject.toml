@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credlyr"
+version = "1.0.0"
+description = "Official Python SDK for the Credlyr API"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Credlyr", email = "support@credlyr.com"}
+]
+dependencies = [
+    "httpx>=0.24.0",
+]
+
+[project.urls]
+Homepage = "https://credlyr.com"
+Documentation = "https://docs.credlyr.com"
+Repository = "https://github.com/credlyr/sdk-python"
