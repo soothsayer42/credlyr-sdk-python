@@ -19,4 +19,4 @@ dependencies = [
 [project.urls]
 Homepage = "https://credlyr.com"
 Documentation = "https://docs.credlyr.com"
-Repository = "https://github.com/credlyr/sdk-python"
+Repository = "https://github.com/soothsayer42/credlyr-sdk-python"
